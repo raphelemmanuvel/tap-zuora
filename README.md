@@ -92,7 +92,3 @@ $ tap-zuora --config config.json --catalog catalog.json --state state.json
 
 Messages are written to standard output following the Singer specification. The
 resultant stream of JSON data can be consumed by a Singer target.
-
----
-
-Copyright &copy; 2017 Stitch
