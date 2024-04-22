@@ -67,7 +67,7 @@ class Client:
         self.is_rest = is_rest
         self.oauth2_token = None
         self.token_expiration_date = None
-        self.base_url = URLS[self.sandbox]
+        self.base_url = URLS[bool(self.sandbox)]
         self._session = requests.Session()
 
         self.check_auth()
